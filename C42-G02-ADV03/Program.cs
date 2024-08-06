@@ -1,4 +1,6 @@
-﻿namespace C42_G02_ADV03
+﻿using System;
+
+namespace C42_G02_ADV03
 {
     internal class Program
     {
@@ -39,11 +41,22 @@
             //Func<int, string> Func;
             //Func = TestingFunctions.Test02;
             //Console.WriteLine(Func.Invoke(5));
-             
+
             //Action action;
             //action = TestingFunctions.test03;
             //Console.WriteLine(action);
 
+            #endregion
+
+            #region V3
+            //predicate<int> predicate = (x) => x > 0;
+            //var predicate = (int    x) => x > 0;
+            //predicate(1);
+            //Func<int, string> Func = (x) => x.ToString();
+            //var Func = (int x) => x.ToString();
+            //Func(4);
+            //Action action = () =>Console.WriteLine("Hello");
+            //var action = () => Console.WriteLine("Hello");
             #endregion
         }
     }
